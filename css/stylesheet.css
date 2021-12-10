@@ -1,0 +1,36 @@
+/* Reseting everything the browsers automatically do */
+* {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.row {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+    margin: 1%;
+    background-color: rgb(66, 136, 87);
+}
+
+.col-2 {
+    flex: 2;
+    padding: 10px;
+    margin: 1%;
+    background-color: rgb(66, 136, 87);
+}
+
+.col-3 {
+    flex: 3;
+    padding: 10px;
+    margin: 1%;
+    background-color: rgb(66, 136, 87);
+}
